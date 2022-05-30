@@ -1,0 +1,7 @@
+#Write a Python program to read a file line by line and store it into an array.
+f=open("file.txt","r")
+r=[]
+for i in f:
+  r.append(i)
+print(r)
+f.close()
