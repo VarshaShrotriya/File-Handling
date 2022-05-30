@@ -1,0 +1,8 @@
+#Write a Python program to append text to a file and display the text.
+f=open("file.txt" ,"a+")
+f.write("manusuta")
+f.write("chauhan")
+f=open("file.txt")
+print(f.read())
+
+
